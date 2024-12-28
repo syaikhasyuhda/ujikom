@@ -39,13 +39,16 @@
     .text1 {
         padding-top: 150px;
     }
+    .thumbnail{
+      width: 100%;
+    }
   </style>
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(6, 109, 206);">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand">
         <img src="Logo_SMK_Negeri_4_Tasikmalaya (1).png" alt="Logo">
         SMKN 4 Tasikmalaya
       </a>
@@ -54,10 +57,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Profil</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Prestasi</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="profil.html">Profil</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="prestasi.html">Prestasi</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="galeri.html">Gallery</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#">Ekstrakurikuler</a></li>
         </ul>
       </div>
@@ -72,7 +75,7 @@
 
   <!-- Card Section -->
   <!-- Prestasi Section -->
-  <section class="prestasi-section">
+  <section class="prestasi-section" id="home">
     <div class="container">
         <div class="row p-5">
             <!-- Kolom 1: Prestasi Sekolah -->
@@ -120,7 +123,9 @@
                 </div>
         </div>
         <header>
-            <h1 class="text-center">Sambutan Kepala Sekolah</h1>
+          <nav class="bg-primary text-white text-center py-3">
+            <h1 class="text-center"> Sambutan Kepala Sekolah</h1>
+          </nav>
         </header>
         <div class="row p-3">
             <div class="col-md-6 text-center">
@@ -133,6 +138,4 @@
                     </div>
                 </div>
         </div>
-    </section>
-</body>
-</html>
+       
